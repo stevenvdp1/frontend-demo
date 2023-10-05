@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"npm:demo\" \"npm:react\" \"npm:vue\" \"npm:angular\"",
+    "start": "concurrently \"npm:demo\" \"npm:react\" \"npm:vue\" \"npm:angular\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "demo":"node index",
     "react": "npm start --prefix ./react-demo",
